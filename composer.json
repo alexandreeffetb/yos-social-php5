@@ -1,0 +1,22 @@
+{
+    "name": "alexandreeffetb/yos-social-php5",
+    "description": "Yahoo! Social SDK - PHP5 library",
+    "keywords": ["yahoo","social","sdk","php"],
+    "homepage": "http://developer.yahoo.com/social/sdk/php/",
+    "license": "BSD",
+    "support": [
+        {
+            "forum": "http://developer.yahoo.com/forum/Y-OS-SDKs/"
+        }
+    ],
+    "require": {
+        "ext-curl": "*",
+        "ext-openssl": "*"
+    },
+    "autoload": {
+        "classmap": [
+            "lib/"
+        ]
+    },
+    "minimum-stability": "dev"
+}
